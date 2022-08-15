@@ -5,7 +5,7 @@ function saludo(){
     let acumulado = 0
     
     function seleccionCompra(tipoDeElementoDeportivo){
-        tipoDeVino = prompt(`Seleccione el elemento de entrenamiento que desea comprar:
+        tipoDeElementoDeportivo = prompt(`Seleccione el elemento de entrenamiento que desea comprar:
         1) Entrenamiento Muscular
         2) Entrenamiento Funcional
         
@@ -133,7 +133,7 @@ function saludo(){
                     alert(`No seleccionaste ningun vino`)
                     break;
             }
-            seleccionBlanco = prompt(`Que vino desea comprar?
+            seleccionfuncional = prompt(`Que elemento desea comprar?
         1) Rueda abdominal, "2M Sposts" - $1000
         2) Escalera Coordinacion, Expert - $900
         3) Banda de Suspension, Fiamma - $4905
